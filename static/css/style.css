@@ -1,0 +1,183 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  user-select: none;
+}
+
+.google-sign-in {
+  margin: 10px;
+}
+
+.google-sign-in .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 20%;
+  background-color: white;
+}
+.google-sign-in .text {
+  color: white;
+  width: 80%;
+  text-align: center;
+}
+
+.google-sign-in {
+  width: 240px;
+  height: 50px;
+  background-color: #4285f4;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.google-sign-in:hover {
+  box-shadow: 1px 1px 5px #4285f4;
+}
+
+.hide {
+  display: none;
+}
+
+.sign-in {
+  margin: 20px;
+  max-width: 50%;
+}
+
+.sign-in .user-tile {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgb(160, 160, 160);
+  border-radius: 20px;
+}
+.sign-in .user-tile .user-details {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.sign-in .user-tile .profile-pic {
+  border-radius: 50%;
+  width: 20%;
+}
+
+.sign-in .user-tile .sign-out {
+  padding: 10px;
+  margin: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(238, 69, 69);
+}
+
+.sign-in .user-tile .sign-out:hover {
+  box-shadow: 2px 2px 5px rgb(136, 136, 136);
+}
+
+.sign-in .user-tile .sign-out:active {
+  box-shadow: 2px 2px 10px rgb(136, 136, 136);
+}
+
+.sign-in .user-tile .user-details span {
+  color: rgb(54, 54, 54);
+}
+
+.twof2 {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min-content;
+  box-shadow: 2px 2px 5px rgb(160, 160, 160);
+  border-radius: 20px;
+}
+
+.twof2 .tile {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: min-content;
+}
+
+.twof2 .tile img {
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.twof2 .input {
+  margin: 10px;
+}
+
+.twof2 .input input {
+  padding: 10px;
+  border: 5px solid rgb(180, 180, 180);
+  border-radius: 10px;
+}
+
+.twof2 .input input:focus {
+  border: 5px solid #4285f4;
+}
+
+.twof2 .input .go {
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(47, 170, 129);
+  color: white;
+}
+
+.twof2 .input .go:hover {
+  box-shadow: 2px 2px 5px rgb(136, 136, 136);
+}
+
+.twof2 .input .go:active {
+  box-shadow: 2px 2px 10px rgb(136, 136, 136);
+}
+
+.not-sign-in .sign-up div {
+  width: 240px;
+  height: 50px;
+  margin: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  color: white;
+  border: 0;
+  outline: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-sign-in .sign-up div:hover {
+  box-shadow: 1px 1px 5px black;
+}
+
+.not-sign-in .sign-up div:active {
+  box-shadow: 1px 1px 10px black;
+}
